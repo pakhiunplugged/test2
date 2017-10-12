@@ -1,0 +1,183 @@
+body
+{ margin:0;
+}
+a
+{
+	text-decoration:none;
+	color:white;
+}
+header
+{
+	height:100px;
+	background-color:#993333;
+}
+.left
+{
+	float:left;
+}
+.right
+{
+	float:right;
+}
+.clear
+{
+	clear:both;
+}
+header .log
+{
+	margin-right:80px;
+	margin-top:30px;
+	color:white;
+}
+header .name
+{
+	margin-left:80px;
+	margin-top:30px;
+	color:white;
+}
+.container
+{
+	width:600px;
+	margin:0 auto;
+	vertical-align:middle;
+	position:relative;
+	top:15%;
+}
+.col
+{
+	display:inline-block;
+	float:left;
+	height:150px;
+	width:300px;
+	background-color:#993333 ;
+	text-align:center;
+	vertical-align:middle;
+	line-height:150px;
+	box-sizing:border-box;
+	border:1px solid white;
+}
+.col a
+{
+	text-decoration:none;
+	color:white;
+}
+.change
+{
+	background-color:#b30000;
+	font-size:25px;
+}
+footer
+{
+	margin-top:180px;
+	height:70px;
+	background-color:#993333;
+}
+footer .right
+{
+	margin-right:80px;
+	margin-top:10px;
+	color:white;
+}
+.less
+{
+	position:relative;
+	bottom:0;
+	width:100%;
+}
+.container .row1 .col1
+{
+	position:relative;
+	left:120px;;
+	width:120px;
+	height:50px;
+	background-color:#660000;
+	text-align:center;
+	box-sizing:border-box;
+	padding-top:15px;
+	float:right;
+
+}
+.row1 .col2
+{
+	position:relative;
+	left:120px;;
+	width:130px;
+	height:60px;
+	background-color:#660000;
+	text-align:center;
+	box-sizing:border-box;
+	padding-top:7px;
+	float:right;
+}
+table
+{
+	border-collapse:collapse;
+	width:100%;
+	
+}
+table a
+{
+	color:black;
+}
+
+td,th
+{
+	padding:20px;
+}
+th
+{
+	text-align:left;
+}
+tr:nth-child(even)
+{
+	background-color:#dddddd;
+}
+td a
+{
+	color:black;
+}
+.form-group
+{
+	padding:10px;
+}
+.form-field
+{
+	width:280px;
+	height:35px;
+	padding:5px;
+}
+.form-submit
+{
+	background-color:#660000;
+	width:120px;
+	height:40px;
+	color:white;
+	border:none;
+}
+.row4
+{
+	margin-top:10px;
+}
+.row3 textarea
+{
+	width:400px;
+	height:100px;
+}
+#banner6,#banner7
+{
+	border:2px solid #A9A9A9;
+	vertical-align:middle;
+}
+#banner6 h2,#banner7 h2
+{
+	margin-left:180px;
+	margin-bottom:50px;
+}
+#banner6 .row3,#banner7 .row3
+{
+	margin-left:180px;
+}
+#banner7
+{
+	margin-top:40px;
+}

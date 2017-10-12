@@ -1,0 +1,180 @@
+*
+{
+	border-box:border-sizing;	
+}
+body
+{
+	margin:0;
+	padding:0;
+	font-family:'Open Sans', sans-serif;
+}
+header
+{
+	border-bottom:2px solid white;
+}
+.div1
+{
+	background-color:#cba567;
+	height:90px;
+	width:100%;
+}
+.left
+{
+	float:left;
+}
+.right
+{
+	float:right;
+}
+nav
+{
+	border-top:2px solid white;
+	background-color:#f5ede2;
+	height:45px;
+	width:100%;
+}
+nav li
+{
+	display:inline-block;
+	margin-right:100px;
+	margin-left:100px;
+	position:relative;
+	top:5px;
+	padding-top:10px;
+	text-align:center;
+	border-right:2px solid white;
+
+}
+nav ul
+{
+	margin-top:0;
+}
+nav a
+{
+	text-decoration:none;
+	color:black;
+	font-weight:800;
+	font-size:11px;
+}
+.sec1 img
+{
+	width:100%;
+	height:500px;
+}
+/*.sec2 .div1, .sec2 .div2
+{
+	disply:inline-block;
+	vertical-align:top;
+}
+.sec2 .div3 
+{
+	display:block;
+}
+
+.sec2 .div11
+{
+	width:70%;
+	height:600px;
+	margin-left:50px;
+	margin-top:40px;
+}
+.sec2 .div12
+{
+	width:30%;
+	height:600px;
+	margin-top:40px;
+}
+.sec2 .left .left2
+{
+	width:30%;
+	padding-right:10px;
+}
+.sec2 .left .left2 p
+{
+	font-size:13px;
+}
+.sec2 .right .right2
+{
+	position:relative;
+	width:50%;
+	padding-right:10px;
+	margin-left:0;
+	
+}
+.sec2 .left2 h3
+{
+	color:#990000;
+	font-size:20px;
+	font-weight:600;
+	text-align:left;
+}
+.sec2 .right2 table
+{
+	border:2px solid #f2f2f2;
+	border-collapse:collapse;
+}
+.sec2 .right2 th
+{
+	color:#990000;
+	font-size:20px;
+	font-weight:600;
+	text-align:center;
+	border-bottom:2px solid #f2f2f2;
+	padding:5px;
+}
+
+.sec2 .right2 td
+{
+	text-align:center;
+	font-size:13px;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom:2px solid #f2f2f2;
+}*/
+
+.sec2 .content, .sec2 .advertise
+{
+	display:inline-block;
+	height:400px;
+}
+.sec2 .content
+{
+	width:75%;
+	padding-top:20px;
+	
+}
+.sec2 .advertise
+{
+	width:25%;
+	
+}
+.sec2 .wrap .giev,.sec2 .wrap .notice
+{
+	vertical-align:top;
+}
+.sec2 .griev
+{
+	display:inline-block;
+
+	border-size:box-sizing;
+	margin-left:50px;
+	margin-right:10px;
+}
+
+.sec2 .griev p
+{
+	max-width:60%;
+}
+.sec2 .notice
+{
+	display:inline-block;
+	vertical-align:top;
+	
+	padding-top:20px;
+}
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
